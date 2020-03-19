@@ -15,21 +15,6 @@ import { GeneratedResolverData } from "./types";
 
 export function generateTypeGraphQLImports(sourceFile: SourceFile) {
   sourceFile.addImportDeclaration({
-    moduleSpecifier: "type-graphql",
-    namedImports: [
-      "registerEnumType",
-      "ObjectType",
-      "Field",
-      "Int",
-      "Float",
-      "ID",
-      "FieldResolver",
-      "InputType",
-      "Arg",
-      "ArgsType",
-    ].sort(),
-  });
-  sourceFile.addImportDeclaration({
     moduleSpecifier: "@nestjs/graphql",
     namedImports: [
       "Resolver",
@@ -39,6 +24,14 @@ export function generateTypeGraphQLImports(sourceFile: SourceFile) {
       "Query",
       "Mutation",
       "Args",
+      "registerEnumType",
+      "ObjectType",
+      "Field",
+      "Int",
+      "Float",
+      "ID",
+      "InputType",
+      "ArgsType",
     ].sort(),
   });
 }
