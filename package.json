@@ -27,7 +27,7 @@
     "type-graphql": "^1.1.1"
   },
   "dependencies": {
-    "@prisma/generator-helper": "~3.8.1",
+    "@prisma/generator-helper": "~3.9.0",
     "@prisma/sdk": "~3.8.1",
     "pluralize": "^8.0.0",
     "semver": "^7.3.5",
