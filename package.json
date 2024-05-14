@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@prisma/generator-helper": "^5.0.0",
-    "@prisma/internals": "^5.0.0",
+    "@prisma/internals": "^5.7.0",
     "pluralize": "^8.0.0",
     "semver": "^7.5.4",
     "ts-morph": "^19.0.0",
